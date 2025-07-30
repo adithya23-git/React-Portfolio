@@ -4,7 +4,7 @@ Welcome to my personal portfolio website built using **React.js**. This project 
 
 ## 🔗 Live Demo
 
-👉 [View Portfolio][(https://your-portfolio-link.com)](https://adhi-react-portfolio.onrender.com/)
+👉 [View Portfolio](https://adhi-react-portfolio.onrender.com/)
 
 ---
 
@@ -12,7 +12,8 @@ Welcome to my personal portfolio website built using **React.js**. This project 
 
 | Home Page | Projects Section | Certificate Section |
 |-----------|------------------|---------------------|
-| <img width="400" src="https://github.com/user-attachments/assets/8111fa12-c315-4e2e-9df9-ab5c37819223" alt="Home Page" /> | <img width="400" src="https://github.com/user-attachments/assets/a6eee477-c81c-406f-b8a4-1690dd2a2ad2" alt="Projects Section" /> | <img width="400" src="https://github.com/user-attachments/assets/8b5d4d58-691e-446b-85ab-c2f77a3684bb" alt="Certificate Section" /> |
+|<img width="1920" height="1080" alt="Screenshot (639)" src="https://github.com/user-attachments/assets/913ba9d1-6083-451a-9132-439dc2cf4721" />| <img width="1920" height="1080" alt="Screenshot (640)" src="https://github.com/user-attachments/assets/967a64cf-aa7f-4d9f-b13f-a51843bdb4ff" /> |<img width="1920" height="1080" alt="Screenshot (641)" src="https://github.com/user-attachments/assets/9f09d418-fa90-4bc8-a66e-fa42d98e242d" />
+  |
  
 
 ---
