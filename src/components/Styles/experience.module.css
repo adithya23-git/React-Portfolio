@@ -1,0 +1,328 @@
+@import "../../vars.css";
+.expcontainer {
+  background: linear-gradient(
+    180deg,
+    rgb(73, 14, 27) 0%,
+    rgb(0, 0, 0) 25%,
+    rgba(5, 5, 5, 0.988) 50%,
+    rgb(0, 0, 0) 76%,
+    rgb(0, 0, 0) 100%
+  );
+  display: flex;
+  flex-direction: column;
+}
+
+.herocontainer {
+  text-align: center;
+  margin-top: 150px;
+  font-family: system-ui, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.herocontainer .heading {
+  font-size: 5rem;
+  color: white;
+  font-weight: bold;
+  background: linear-gradient(90deg, #1e6ac6, #2b72d5, #ff7eb3, #ff7eb3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+.herocontainer .description {
+  font-size: 1.5rem;
+  color: rgb(210, 198, 198);
+  font-family: var(--font-inter), "Times New Roman", Times, serif;
+  margin-bottom: 10px;
+}
+.herocontainer .sociallinks {
+  width: 20%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+/** Services */
+.service {
+  color: white;
+  margin-top: 100px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.services {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+.service .servicetitle {
+  color: rgb(204, 0, 255);
+  font-size: 2.5rem;
+  margin-left: 45%;
+  margin-bottom: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.ser1 {
+  text-align: left;
+  border: 1px solid rgb(136, 255, 0);
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-right: 40px;
+}
+.ser1 img {
+  width: 9%;
+  height: 10vh;
+  margin: 10px 10px;
+}
+.ser1 .webtitle {
+  font-family: var(--font-outfit), Tahoma;
+  margin-left: 10px;
+  font-size: 1.7rem;
+}
+.ser1 .webdes {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.ser2 {
+  margin-right: 30px;
+  border: 1px solid yellow;
+  border-radius: 10px;
+}
+
+.ser2 img {
+  width: 9%;
+  height: 10vh;
+  margin: 10px 10px;
+}
+
+.ser2 .uides {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.ser2 .uititle {
+  font-family: var(--font-outfit), Tahoma;
+  margin-left: 10px;
+  font-size: 1.7rem;
+}
+
+.ser1:hover {
+  background-color: rgb(21, 21, 21);
+}
+.ser2:hover {
+  background-color: rgb(21, 21, 21);
+}
+
+/** Certificate section*/
+
+.certificatessection {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.certificatestitle {
+  text-align: center;
+  color: rgb(0, 255, 238);
+  font-family: var(--font-popins), "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif;
+  font-size: 2.5rem;
+}
+.certificatecard1 {
+  border: 1px solid rgba(255, 0, 72, 0.758);
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  width: 40%;
+}
+.certificatecard2 {
+  border: 1px solid rgba(255, 0, 72, 0.735);
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  width: 50%;
+}
+.certificatecard1 img {
+  width: 60%;
+  height: 70vh;
+  margin-top: 20px;
+}
+.certificatecard2 img {
+  margin-top: 20px;
+  width: 500px;
+  height: 60vh;
+}
+.certificatescontainer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.certificates1 {
+  text-align: center;
+}
+.certificates2 {
+  text-align: center;
+}
+.certificatescontainer .com {
+  margin-left: 20px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: chocolate;
+}
+
+.certificatescontainer .duration {
+  margin-left: 20px;
+  font-size: 1.2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.certificatescontainer .des {
+  margin-left: 20px;
+  font-size: 1.1rem;
+  font-family: cursive;
+  margin-bottom: 20px;
+}
+
+.certificatescontainer .heading {
+  color: tomato;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 1.7rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 10px;
+}
+.certificatecard1:hover{
+    background-color: rgb(27, 27, 27);
+}
+.certificatecard2:hover{
+    background-color: rgb(27, 27, 27);
+}
+
+
+/** Responsive 830px */
+@media screen and (max-width: 830px) {
+  .services{
+    flex-direction: column;
+    align-items:center ;
+  }
+  .ser1{
+    width: 80%;
+  }
+  .ser2{
+    width: 80%;
+    margin-left: 12px;
+    margin-top: 20px;
+  }
+  
+  .certificatescontainer{
+    flex-direction: column;
+    align-items: center;
+  }
+  .certificatecard1{
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  .certificatecard2{
+    width:80%;
+  }
+  .herocontainer .sociallinks {
+    width: 30%;
+   
+  }
+}
+
+
+/** mobile responsive */
+@media screen and (max-width: 426px) {
+  .herocontainer .heading{
+    font-size: 4rem;
+  }
+  .herocontainer .description{
+    font-size: 1.2rem;
+  }
+  .herocontainer .sociallinks{
+    width: 50%;
+  }
+  
+  .service .servicetitle{
+    margin-left:0%;
+    text-align: center;
+    
+  }
+  .ser1{
+    text-align: center;
+    width: 90%;
+  }
+  .ser2{
+    text-align: center;
+    width: 90%;
+    margin-left: 19px;
+  }
+  .ser1 img{
+    height: 60px;
+  }
+  .ser2 img{
+    height: 60px;
+  }
+
+  .certificatecard1{
+    width: 90%;
+  }
+  .certificatecard1 img{
+    width: 60%;
+    height: 350px;
+  }
+  .certificatecard2{
+    width: 90%;
+  }
+  .certificatecard2 img{
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .herocontainer .heading{
+    font-size: 3.3rem;
+  }
+  .herocontainer .description{
+    font-size: 15px;
+  }
+  .herocontainer .sociallinks{
+    width: 70%;
+  }
+  .ser1{
+    text-align: center;
+  }
+  .ser1 .webdes{
+    font-size: 15px;
+  }
+  .ser2 .uides{
+    font-size: 15px;
+  }
+  .ser2{
+    height: 180px;
+  }
+
+  .ser2 img{
+    margin-top: 15px;
+  }
+  .certificatecard1 img{
+    width: 90%;
+    height: 350px;
+  }
+  .certificatecard2 img{
+    width: 90%;
+  }
+ 
+}

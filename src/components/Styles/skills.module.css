@@ -1,0 +1,385 @@
+@import "../../vars.css";
+html {
+  scroll-behavior: smooth;
+}
+
+.maincontainer {
+    background: linear-gradient(
+    180deg,
+    rgb(73, 14, 27) 0%,
+    rgb(0, 0, 0) 25%,
+    rgba(5, 5, 5, 0.988) 50%,
+    rgb(0, 0, 0) 76%,
+    rgb(0, 0, 0) 100%
+  );
+}
+
+/** Skill Top COntainer */
+.skilltop{
+   
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skilltop .mainquote{
+    
+    font-size: 4.5rem;
+    font-family: var(--font-roboto),'Times New Roman', Times, serif;
+    color: #fabf3f;
+    font-weight: 600;
+    
+    margin-top: 140px;
+}
+.mainquote span{
+ color: rgb(39, 182, 153);
+}
+
+.skilltop .miniquote{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-family: var(--font-outfit);
+  
+    width: 70%;
+    color:rgb(143, 143, 143);
+    text-align: center;
+}
+
+.skilltop .skillbtn{
+
+    margin-top: 30px;
+   
+}
+
+/*^Skill container*/
+
+.minicon .skillheading{
+    color: #fabf3f;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 2.5rem;
+}
+
+
+.skillscontainer{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 170vh;
+}
+
+.skilltitle{
+    text-align: center;
+    font-weight: bold;
+    font-family: var(--font-popins);
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-decoration: underline;
+    text-underline-offset: 5px; 
+    text-decoration-color: brown;
+    animation: blink 1s infinite;
+    background: linear-gradient(90deg, #67e6ff 37% ,#fabf3f,#e4f52e,#e4f52e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+@keyframes blink {
+    50% { text-decoration: transparent; }
+}
+
+/** image animation */
+.skillscontainer img{
+    border: 3px solid transparent;
+    box-shadow: 0px 0px 30px 5px rgb(248, 248, 248);
+    animation: glow 1.5s infinite alternate;
+  }
+  
+  @keyframes glow {
+    0% {
+        box-shadow: 0px 0px 10px 3px rgb(245, 245, 245);
+    }
+    100% {
+      box-shadow: 0 0 15px 2px rgba(3, 3, 3, 0.9);
+    }
+  }
+
+/** Image */
+.skillscontainer img{
+    width: 50%;
+    height: 100%;
+    border-radius: 50%;  
+}
+
+/** title */
+.skillscontainer p{
+    font-family: var(--font-outfit) , 'Times New Roman';
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: aqua;
+}
+
+/** frontend */
+.frontend{
+    border: 3px solid rgb(0, 255, 217);
+    padding-top: 10px;
+    width: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    
+}
+.html {
+    height: 20vh;
+    margin-bottom: 60px;
+}
+.css{ 
+    height: 20vh;
+    margin-bottom: 60px;
+}
+
+.bootstrap{
+    
+    height: 20vh;
+    margin-bottom: 60px;
+}
+.js{
+      height: 20vh;
+    margin-bottom: 60px;
+}
+.js img{
+    background-color: white;
+}
+.react{
+   
+    height: 20vh;
+    
+}
+
+
+  .frontendtitle{
+    margin-bottom: 50px;
+}
+
+
+
+/** backend */
+.backend{
+    border: 3px solid rgb(246, 119, 23);
+    width: 20%; 
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    border-radius: 20px;
+  
+    
+}
+.backend img{
+    width:60%;
+}
+.nodejs{
+    height: 25vh;
+    margin-bottom: 50px;
+}
+.nodejs img{
+    background-color: white;
+    border: 2px solid black;
+}
+.expressjs{
+    height: 25vh;
+   
+}
+.backendtitle{
+    margin-bottom: 50px;
+}
+
+
+
+
+
+/** DB */
+.database{
+    border: 3px solid rgb(52, 252, 52);
+    width: 20%; 
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    border-radius: 20px;
+
+    
+}
+.database img{
+    width:60%;
+}
+.mongodb{
+    height: 25vh;
+    margin-bottom: 50px;
+}
+.sql{
+    height: 25vh;
+  
+}
+.sql img{
+    background-color: white;
+}
+.databasetitle{
+    margin-bottom: 50px;
+}
+
+
+/** programming language*/
+.programminglanguages{
+    border: 3px solid rgb(229, 250, 44);
+    width: 20%; 
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    border-radius: 20px;
+   
+   
+}
+.programmingtitle{
+    margin-bottom: 50px;
+}
+
+.java{
+    
+    height: 20vh;
+    margin-bottom: 50px;
+}
+.python{
+   
+    height: 20vh;
+    margin-bottom: 50px;
+}
+.c{
+    
+    height: 20vh;
+    margin-bottom: 50px;
+}
+
+
+
+/* ! Responsiveness */
+
+/* Responsive design */
+
+/* Medium screens - Tablets */
+@media (max-width: 1024px) {
+  .skillscontainer {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .frontend,
+  .backend,
+  .database,
+  .programminglanguages {
+    width: 80%;
+    margin-bottom: 40px;
+  }
+
+  .skillscontainer img {
+    width: 60%;
+    height: auto;
+  }
+
+  .skilltop .mainquote {
+    font-size: 3rem;
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .skilltop .miniquote {
+    font-size: 1rem;
+    width: 90%;
+  }
+}
+
+/* Small screens - Phones */
+@media (max-width: 768px) {
+  .skilltop .mainquote {
+    font-size: 2.2rem;
+    margin-top: 80px;
+  }
+
+  .skillscontainer {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .frontend,
+  .backend,
+  .database,
+  .programminglanguages {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+
+  .skillscontainer img {
+    width: 70%;
+    height: auto;
+  }
+
+  .skilltitle {
+    font-size: 1.8rem;
+  }
+
+  .minicon .skillheading {
+    font-size: 1.8rem;
+  }
+
+  .skillscontainer p {
+    font-size: 1rem;
+  }
+
+  .skilltop .miniquote {
+    font-size: 0.9rem;
+    width: 95%;
+  }
+}
+
+/* Extra Small screens */
+@media (max-width: 480px) {
+  .skilltop .mainquote {
+    font-size: 3rem;
+    margin-top: 180px;
+  }
+
+  .skilltop .miniquote {
+    font-size: 1rem;
+  }
+
+  .skilltitle,
+  .minicon .skillheading {
+    font-size: 2.5rem;
+  }
+
+  .skillscontainer p {
+    font-size: 1.5rem;
+  }
+
+  .skillscontainer img {
+    width: 50%;
+
+    height: 20vh;
+  }
+  .react{
+      
+      margin-bottom: 10px;
+  }
+}
