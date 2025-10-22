@@ -59,7 +59,7 @@ import { Link } from 'react-router-dom'
                                  <span>Express.js</span>
                                  <div className={styles.viewproject}> 
                                 <a href='https://github.com/adithya23-git/Hackathon-Website' target='blank'><ProjectView></ProjectView></a>
-                                 <a href='https://hackathon-website-kyyb.onrender.com' className={styles.tryit} target='blank'>Try It</a>
+                                 <a href='https://hackathon-website-kyyb.onrender.com/firstpage/' className={styles.tryit} target='blank'>Try It</a>
                                 </div>
                             </div>
                         </div>
